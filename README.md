@@ -28,7 +28,7 @@ others' messages should look different in the room.
 my server and clients are compiling however I couldn't manage to receive starting parameters from user I think which is caused by my client_handler() function. If I had manage to do that it would run smoothly.
 it .runs with lpthread
 
-'''bash
+'''sh
 gcc 2400000145_server.c -o server.out -lpthread
 
 gcc 2400000145_client.c -o client.out -lpthread
